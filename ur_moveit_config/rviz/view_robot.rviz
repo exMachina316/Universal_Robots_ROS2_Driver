@@ -5,10 +5,7 @@ Panels:
     Property Tree Widget:
       Expanded:
         - /Global Options1
-        - /MotionPlanning1
-        - /MotionPlanning1/Planning Request1
         - /TF1/Frames1
-        - /RobotModel1
       Splitter Ratio: 0.4957627058029175
     Tree Height: 389
   - Class: rviz_common/Selection
@@ -89,6 +86,42 @@ Visualization Manager:
             Show Axes: false
             Show Trail: false
             Value: true
+          camera_1:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          camera_1_optical:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          camera_2:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          camera_2_optical:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          camera_3:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          camera_3_optical:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          depth_camera:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          depth_camera_optical:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
           flange:
             Alpha: 1
             Show Axes: false
@@ -102,11 +135,6 @@ Visualization Manager:
             Alpha: 1
             Show Axes: false
             Show Trail: false
-          hex_qc_ft_sensor:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
           linear_rail:
             Alpha: 1
             Show Axes: false
@@ -229,6 +257,42 @@ Visualization Manager:
             Show Axes: false
             Show Trail: false
             Value: true
+          camera_1:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          camera_1_optical:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          camera_2:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          camera_2_optical:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          camera_3:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          camera_3_optical:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          depth_camera:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          depth_camera_optical:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
           flange:
             Alpha: 1
             Show Axes: false
@@ -242,11 +306,6 @@ Visualization Manager:
             Alpha: 1
             Show Axes: false
             Show Trail: false
-          hex_qc_ft_sensor:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
           linear_rail:
             Alpha: 1
             Show Axes: false
@@ -337,87 +396,19 @@ Visualization Manager:
         Value: /waypoints_transformed
       Value: true
     - Class: rviz_default_plugins/TF
-      Enabled: true
+      Enabled: false
       Frame Timeout: 15
       Frames:
         All Enabled: true
-        base:
-          Value: true
-        base_link:
-          Value: true
-        base_link_inertia:
-          Value: true
-        flange:
-          Value: true
-        forearm_link:
-          Value: true
-        ft_frame:
-          Value: true
-        hex_qc_ft_sensor:
-          Value: true
-        linear_rail:
-          Value: true
-        plc_linear_rail:
-          Value: true
-        shoulder_link:
-          Value: true
-        slider_base:
-          Value: true
-        table1:
-          Value: true
-        table2:
-          Value: true
-        tool0:
-          Value: true
-        tool0_controller:
-          Value: true
-        upper_arm_link:
-          Value: true
-        work_cell:
-          Value: true
-        world:
-          Value: true
-        wrist_1_link:
-          Value: true
-        wrist_2_link:
-          Value: true
-        wrist_3_link:
-          Value: true
       Marker Scale: 1
       Name: TF
       Show Arrows: true
       Show Axes: true
       Show Names: false
       Tree:
-        world:
-          work_cell:
-            linear_rail:
-              slider_base:
-                base_link:
-                  base:
-                    tool0_controller:
-                      {}
-                  base_link_inertia:
-                    shoulder_link:
-                      upper_arm_link:
-                        forearm_link:
-                          wrist_1_link:
-                            wrist_2_link:
-                              wrist_3_link:
-                                flange:
-                                  tool0:
-                                    hex_qc_ft_sensor:
-                                      {}
-                                ft_frame:
-                                  {}
-            plc_linear_rail:
-              {}
-            table1:
-              {}
-            table2:
-              {}
+        {}
       Update Interval: 0
-      Value: true
+      Value: false
     - Alpha: 1
       Class: rviz_default_plugins/RobotModel
       Collision Enabled: false
@@ -449,6 +440,42 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
+        camera_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        camera_1_optical:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        camera_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        camera_2_optical:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        camera_3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        camera_3_optical:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        depth_camera:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        depth_camera_optical:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
         flange:
           Alpha: 1
           Show Axes: false
@@ -462,11 +489,6 @@ Visualization Manager:
           Alpha: 1
           Show Axes: false
           Show Trail: false
-        hex_qc_ft_sensor:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
         linear_rail:
           Alpha: 1
           Show Axes: false
@@ -614,13 +636,13 @@ Window Geometry:
     collapsed: false
   MotionPlanning - Trajectory Slider:
     collapsed: false
-  QMainWindow State: 000000ff00000000fd0000000400000000000001e00000039dfc020000000bfb0000001200530065006c0065006300740069006f006e00000001e10000009b0000005c00fffffffb0000001e0054006f006f006c002000500072006f007000650072007400690065007302000001ed000001df00000185000000a3fb000000120056006900650077007300200054006f006f02000001df000002110000018500000122fb000000200054006f006f006c002000500072006f0070006500720074006900650073003203000002880000011d000002210000017afb000000100044006900730070006c006100790073010000003b00000217000000c700fffffffb0000002000730065006c0065006300740069006f006e00200062007500660066006500720200000138000000aa0000023a00000294fb00000014005700690064006500530074006500720065006f02000000e6000000d2000003ee0000030bfb0000000c004b0069006e0065006300740200000186000001060000030c00000261fb000000280020002d0020005400720061006a006500630074006f0072007900200053006c00690064006500720000000000ffffffff0000000000000000fb00000044004d006f00740069006f006e0050006c0061006e006e0069006e00670020002d0020005400720061006a006500630074006f0072007900200053006c00690064006500720000000000ffffffff0000003f00fffffffb0000001c004d006f00740069006f006e0050006c0061006e006e0069006e00670100000258000001800000016900ffffff00000001000001100000039dfc0200000003fb0000001e0054006f006f006c002000500072006f00700065007200740069006500730100000041000000780000000000000000fb0000000a00560069006500770073010000003b0000039d000000a000fffffffb0000001200530065006c0065006300740069006f006e010000025a000000b200000000000000000000000200000490000000a9fc0100000001fb0000000a00560069006500770073030000004e00000080000002e10000019700000003000004420000003efc0100000002fb0000000800540069006d00650100000000000004420000000000000000fb0000000800540069006d00650100000000000004500000000000000000000004420000039d00000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
+  QMainWindow State: 000000ff00000000fd0000000400000000000001e00000039dfc020000000bfb0000001200530065006c0065006300740069006f006e00000001e10000009b0000005c00fffffffb0000001e0054006f006f006c002000500072006f007000650072007400690065007302000001ed000001df00000185000000a3fb000000120056006900650077007300200054006f006f02000001df000002110000018500000122fb000000200054006f006f006c002000500072006f0070006500720074006900650073003203000002880000011d000002210000017afb000000100044006900730070006c006100790073010000003b00000217000000c700fffffffb0000002000730065006c0065006300740069006f006e00200062007500660066006500720200000138000000aa0000023a00000294fb00000014005700690064006500530074006500720065006f02000000e6000000d2000003ee0000030bfb0000000c004b0069006e0065006300740200000186000001060000030c00000261fb000000280020002d0020005400720061006a006500630074006f0072007900200053006c00690064006500720000000000ffffffff0000000000000000fb00000044004d006f00740069006f006e0050006c0061006e006e0069006e00670020002d0020005400720061006a006500630074006f0072007900200053006c00690064006500720000000000ffffffff0000003f00fffffffb0000001c004d006f00740069006f006e0050006c0061006e006e0069006e00670100000258000001800000016900ffffff00000001000001100000039dfc0200000003fb0000001e0054006f006f006c002000500072006f00700065007200740069006500730100000041000000780000000000000000fb0000000a00560069006500770073010000003b0000039d000000a000fffffffb0000001200530065006c0065006300740069006f006e010000025a000000b200000000000000000000000200000490000000a9fc0100000001fb0000000a00560069006500770073030000004e00000080000002e10000019700000003000004420000003efc0100000002fb0000000800540069006d00650100000000000004420000000000000000fb0000000800540069006d00650100000000000004500000000000000000000004840000039d00000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
   Selection:
     collapsed: false
   Tool Properties:
     collapsed: false
   Views:
     collapsed: false
-  Width: 1854
-  X: 66
+  Width: 1920
+  X: 0
   Y: 32
