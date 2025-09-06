@@ -386,7 +386,7 @@ Visualization Manager:
       Name: PoseArray
       Shaft Length: 0.23000000417232513
       Shaft Radius: 0.009999999776482582
-      Shape: Arrow (Flat)
+      Shape: Axes
       Topic:
         Depth: 5
         Durability Policy: Volatile
@@ -560,6 +560,19 @@ Visualization Manager:
       Update Interval: 0
       Value: true
       Visual Enabled: true
+    - Class: rviz_default_plugins/Marker
+      Enabled: true
+      Name: Marker
+      Namespaces:
+        hand: true
+      Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        Filter size: 10
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /hand_marker
+      Value: true
   Enabled: true
   Global Options:
     Background Color: 48; 48; 48
@@ -606,25 +619,25 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz_default_plugins/Orbit
-      Distance: 5.903954029083252
+      Distance: 1.6358658075332642
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
         Swap Stereo Eyes: false
         Value: false
       Focal Point:
-        X: -0.1319444477558136
-        Y: -0.35178402066230774
-        Z: 0.21003110706806183
+        X: -0.31155258417129517
+        Y: 0.046571146696805954
+        Z: 0.5255227088928223
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.8397970199584961
+      Pitch: 0.2947976887226105
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz_default_plugins)
-      Yaw: 1.0092095136642456
+      Yaw: 0.09420955926179886
     Saved: ~
 Window Geometry:
   Displays:
