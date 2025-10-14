@@ -12,7 +12,7 @@
     <!--SUBGROUPS - Groups can also be formed by referencing to already defined group names-->
     <group name="${prefix}${name}_manipulator">
       <!-- <chain base_link="${prefix}base_link" tip_link="${prefix}hex_qc_ft_sensor" /> -->
-      <chain base_link="${prefix}base_link" tip_link="${prefix}tool0" />
+      <chain base_link="${prefix}base_link" tip_link="${prefix}flange" />
     </group>
     <!--GROUP STATES - Purpose - Define a named state for a particular group, in terms of joint values. This is useful to define states like 'folded arms'-->
     <group_state name="${prefix}home" group="${prefix}${name}_manipulator">

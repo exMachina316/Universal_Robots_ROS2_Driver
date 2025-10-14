@@ -5,6 +5,7 @@ Panels:
     Property Tree Widget:
       Expanded:
         - /Global Options1
+        - /MotionPlanning1
         - /TF1/Frames1
       Splitter Ratio: 0.4957627058029175
     Tree Height: 389
@@ -86,42 +87,6 @@ Visualization Manager:
             Show Axes: false
             Show Trail: false
             Value: true
-          camera_1:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          camera_1_optical:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-          camera_2:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          camera_2_optical:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-          camera_3:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          camera_3_optical:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-          depth_camera:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          depth_camera_optical:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
           flange:
             Alpha: 1
             Show Axes: false
@@ -224,7 +189,7 @@ Visualization Manager:
         Planning Group: ur_on_rail_manipulator
         Query Goal State: true
         Query Start State: false
-        Show Workspace: false
+        Show Workspace: true
         Start State Alpha: 1
         Start State Color: 0; 255; 0
       Planning Scene Topic: monitored_planning_scene
@@ -257,42 +222,6 @@ Visualization Manager:
             Show Axes: false
             Show Trail: false
             Value: true
-          camera_1:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          camera_1_optical:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-          camera_2:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          camera_2_optical:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-          camera_3:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          camera_3_optical:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-          depth_camera:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          depth_camera_optical:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
           flange:
             Alpha: 1
             Show Axes: false
@@ -440,42 +369,6 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
-        camera_1:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        camera_1_optical:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-        camera_2:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        camera_2_optical:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-        camera_3:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        camera_3_optical:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-        depth_camera:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        depth_camera_optical:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
         flange:
           Alpha: 1
           Show Axes: false
@@ -564,7 +457,7 @@ Visualization Manager:
       Enabled: true
       Name: Marker
       Namespaces:
-        hand: true
+        {}
       Topic:
         Depth: 5
         Durability Policy: Volatile
@@ -619,25 +512,25 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz_default_plugins/Orbit
-      Distance: 1.6358658075332642
+      Distance: 4.333453178405762
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
         Swap Stereo Eyes: false
         Value: false
       Focal Point:
-        X: -0.31155258417129517
-        Y: 0.046571146696805954
-        Z: 0.5255227088928223
+        X: -0.20144881308078766
+        Y: 0.019408896565437317
+        Z: 0.41540589928627014
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.2947976887226105
+      Pitch: 0.7447972893714905
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz_default_plugins)
-      Yaw: 0.09420955926179886
+      Yaw: 0.6742091178894043
     Saved: ~
 Window Geometry:
   Displays:
