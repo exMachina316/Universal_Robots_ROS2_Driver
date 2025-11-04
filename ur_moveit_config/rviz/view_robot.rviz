@@ -189,7 +189,7 @@ Visualization Manager:
         Planning Group: ur_on_rail_manipulator
         Query Goal State: true
         Query Start State: false
-        Show Workspace: true
+        Show Workspace: false
         Start State Alpha: 1
         Start State Color: 0; 255; 0
       Planning Scene Topic: monitored_planning_scene
@@ -464,7 +464,7 @@ Visualization Manager:
         Filter size: 10
         History Policy: Keep Last
         Reliability Policy: Reliable
-        Value: /hand_marker
+        Value: /status_marker
       Value: true
   Enabled: true
   Global Options:
