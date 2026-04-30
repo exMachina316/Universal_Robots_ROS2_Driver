@@ -6,6 +6,8 @@ Panels:
       Expanded:
         - /Global Options1
         - /MotionPlanning1
+        - /TF1
+        - /TF1/Frames1
         - /Marker1/Topic1
       Splitter Ratio: 0.4957627058029175
     Tree Height: 401
@@ -346,75 +348,71 @@ Visualization Manager:
       Enabled: true
       Frame Timeout: 15
       Frames:
-        All Enabled: true
+        All Enabled: false
         base:
-          Value: true
+          Value: false
         base_link:
           Value: true
         base_link_inertia:
-          Value: true
+          Value: false
         flange:
-          Value: true
+          Value: false
         forearm_link:
-          Value: true
+          Value: false
         ft_frame:
-          Value: true
+          Value: false
         linear_rail:
-          Value: true
+          Value: false
         needle:
-          Value: true
+          Value: false
         needle_tip:
-          Value: true
+          Value: false
         oak1:
           Value: true
         oak1_imu_frame:
-          Value: true
+          Value: false
+        oak1_oak1:
+          Value: false
         oak1_rgb_camera_frame:
-          Value: true
+          Value: false
         oak1_rgb_camera_optical_frame:
-          Value: true
-        oak2:
-          Value: true
-        oak2_imu_frame:
-          Value: true
-        oak2_rgb_camera_frame:
-          Value: true
-        oak2_rgb_camera_optical_frame:
-          Value: true
+          Value: false
         oak3:
           Value: true
         oak3_imu_frame:
-          Value: true
+          Value: false
+        oak3_oak3:
+          Value: false
         oak3_rgb_camera_frame:
-          Value: true
+          Value: false
         oak3_rgb_camera_optical_frame:
-          Value: true
+          Value: false
         plc_linear_rail:
-          Value: true
+          Value: false
         shoulder_link:
-          Value: true
+          Value: false
         slider_base:
-          Value: true
+          Value: false
         table1:
-          Value: true
+          Value: false
         table2:
           Value: true
         tool0:
-          Value: true
+          Value: false
         tool0_controller:
           Value: true
         upper_arm_link:
-          Value: true
+          Value: false
         work_cell:
-          Value: true
+          Value: false
         world:
-          Value: true
+          Value: false
         wrist_1_link:
-          Value: true
+          Value: false
         wrist_2_link:
-          Value: true
+          Value: false
         wrist_3_link:
-          Value: true
+          Value: false
       Marker Scale: 1
       Name: TF
       Show Arrows: false
@@ -444,20 +442,10 @@ Visualization Manager:
                                 ft_frame:
                                   {}
                   oak1:
-                    oak1_imu_frame:
-                      {}
                     oak1_rgb_camera_frame:
                       oak1_rgb_camera_optical_frame:
                         {}
-                  oak2:
-                    oak2_imu_frame:
-                      {}
-                    oak2_rgb_camera_frame:
-                      oak2_rgb_camera_optical_frame:
-                        {}
                   oak3:
-                    oak3_imu_frame:
-                      {}
                     oak3_rgb_camera_frame:
                       oak3_rgb_camera_optical_frame:
                         {}
@@ -499,7 +487,7 @@ Visualization Manager:
       Enabled: true
       Name: Marker
       Namespaces:
-        {}
+        status_text: true
       Topic:
         Depth: 5
         Durability Policy: Volatile
@@ -617,25 +605,25 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz_default_plugins/Orbit
-      Distance: 0.5669586658477783
+      Distance: 5.469050884246826
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
         Swap Stereo Eyes: false
         Value: false
       Focal Point:
-        X: -0.07701808214187622
-        Y: -0.3261057734489441
-        Z: 1.8867968320846558
+        X: -1.2200173139572144
+        Y: 0.3558812439441681
+        Z: 1.6514519453048706
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: -0.05024709179997444
+      Pitch: 0.7147526741027832
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz_default_plugins)
-      Yaw: 0.7930957078933716
+      Yaw: 1.2530957460403442
     Saved: ~
 Window Geometry:
   Camera:
